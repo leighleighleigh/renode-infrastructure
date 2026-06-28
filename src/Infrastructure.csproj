@@ -74,6 +74,7 @@
     <ProjectReference Include="../../../lib/Packet.Net/PacketDotNet/PacketDotNet.csproj"/>
     <ProjectReference Include="../../../lib/bc-csharp/crypto/crypto.csproj"/>
     <ProjectReference Include="../../../lib/CxxDemangler/CxxDemangler/CxxDemangler.csproj"/>
+    <ProjectReference Include="../../../lib/dotnet-webassembly/WebAssembly/WebAssembly.csproj"/>
     <ProjectReference Include="../../../lib/termsharp/xwt/Xwt.Gtk/Xwt.Gtk3.csproj" Condition=" $(GUI_DISABLED) != 'true' "/>
     <PackageReference Include="GdkSharp" Version="3.24.24.95" Condition=" $(GUI_DISABLED) != 'true' "/>
     <PackageReference Include="GLibSharp" Version="3.24.24.95" Condition=" $(GUI_DISABLED) != 'true' "/>
